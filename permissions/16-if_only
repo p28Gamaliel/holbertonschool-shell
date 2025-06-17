@@ -1,2 +1,2 @@
 #!/bin/bash
-[ "$(stat -c %U hola)" = "guillaume" ] && chown vincent hola
+chown vincent hola 2>/dev/null
